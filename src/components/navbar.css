@@ -1,0 +1,36 @@
+.navbar {
+    width: 87vw;
+    /* height: 80%; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.nav-logo {
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: start;   */
+    justify-content: space-between ;
+}
+
+.nav-logo img {
+    width: auto;
+    height: 80px;
+
+}
+
+.nav-options {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    justify-content: end;
+    /* justify-content: space-around; */
+
+}
+
+.nav-options p {
+    padding: 15px;
+}

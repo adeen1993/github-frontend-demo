@@ -1,0 +1,23 @@
+.dashboard {
+    display: flex;
+    width: 87vw;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.suggested-section {
+    flex: 1;
+    /* border: 2px solid black; */
+    border-right: 2px solid black;
+}
+
+.main-section {
+    flex: 3;
+}
+
+.upcoming-events-section {
+    flex : 1;
+    /* border: 2px solid black; */
+    border-left: 2px solid black;
+}
